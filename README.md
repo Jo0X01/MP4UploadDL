@@ -82,7 +82,10 @@ pip install -r requirements.txt
 
 from MP4UpoadDL import MP4UploadDL
 
-source = ""
+source = " https://www.mp4upload.com/abcd1234"
+source = [" https://www.mp4upload.com/abcd1234"," https://www.mp4upload.com/abcd1234"," https://www.mp4upload.com/abcd1234"]
+source = "links.txt"
+
 mp4upload = MP4UploadDL(source)
 _info = mp4upload.download(output_dir=".",info_only=True)
 for _i in _info:
