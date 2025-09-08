@@ -5,7 +5,7 @@ import certifi
 import requests
 import urllib3
 from typing import List
-from config import Config
+from .config import Config
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class MP4UploadDLURLInfo:
