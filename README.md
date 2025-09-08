@@ -1,9 +1,9 @@
-<p align="center">
+<p align="left">
   <a href="https://github.com/Jo0X01/MP4UploadDL">
-    <img src="https://raw.githubusercontent.com/Jo0X01/MP4UploadDL/refs/heads/main/MP4UploadDL/MP4UploadDL.ico" alt="Temp Mail Generator" width="300" height="250">
+    <img src="MP4UploadDL.ico" alt="MP4UploadDL">
   </a>
 </p>
-<p align="center">
+<p align="left">
   <a href="https://pypi.org/project/MP4UploadDL/">
     <img src="https://img.shields.io/badge/-PyPi-blue.svg?logo=pypi&labelColor=555555&style=for-the-badge" alt="PyPi">
   </a>
