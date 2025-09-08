@@ -1,3 +1,4 @@
+import os
 from setuptools import setup, find_packages
 
 __author__ = "Jo0x01"
@@ -7,9 +8,6 @@ __desc__ = """A Python script to download videos from **MP4Upload** using the fr
 
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
-
-with open('requirements.txt', 'r', encoding='utf-8') as f:
-    requirements = f.readlines()
 
 setup(
     name=__pkg_name__,
@@ -21,9 +19,12 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url="https://github.com/jo0x01/MP4UploadDL",
-    packages=find_packages(exclude=("tests",)),
     py_modules=["MP4UploadDL"],
-    install_requires=requirements,
+    install_requires=[
+        "requests>=2.28.0",
+        "certifi>=2023.0.0",
+        "urllib3>=1.26.0"
+    ],
     entry_points={
         "console_scripts": [
             "mp4upload-dl=MP4UploadDL:main",
