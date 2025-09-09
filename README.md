@@ -39,8 +39,8 @@ via `source`:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/jo0x01/mp4uploaddl.git
-cd mp4uploaddl
+git clone https://github.com/jo0x01/MP4UploadDL.git
+cd MP4UploadDL
 pip install -r requirements.txt
 pip install .
 ```
@@ -49,17 +49,17 @@ pip install .
 ## Usage
 
 ```bash
-mp4upload-dl <URL or file> -o downloads/ --info-only
+MP4UploadDL <URL or file> -o downloads/ --info-only
 ```
 
 ### Single link:
 ```bash
-python mp4upload_downloader.py https://www.mp4upload.com/abcd1234
+python MP4UploadDL.py https://www.mp4upload.com/abcd1234
 ```
 
 ### From a file:
 ```bash
-python mp4upload_downloader.py links.txt
+python MP4UploadDL.py links.txt
 ```
 
 Each line in `links.txt` should contain a single MP4Upload link.
