@@ -1,6 +1,3 @@
-
-
-
 class Config:
     BASE_URL = "https://www.mp4upload.com/"
     INPUT_REGEX = r'<input type="hidden" name="([A-Za-z_]+)" value="(.*?)">'

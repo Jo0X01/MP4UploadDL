@@ -1,6 +1,6 @@
 
 import argparse
-from .mp4upload import MP4UploadDL
+from MP4UploadDL import MP4UploadDL
 
 def main():
     parser = argparse.ArgumentParser(

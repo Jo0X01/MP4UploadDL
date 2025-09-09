@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 __author__ = "Jo0x01"
 __pkg_name__ = "MP4UploadDL"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __desc__ = """A Python script to download videos from **MP4Upload** using the free download method without waiting."""
 
 with open('README.md', 'r', encoding='utf-8') as f:
